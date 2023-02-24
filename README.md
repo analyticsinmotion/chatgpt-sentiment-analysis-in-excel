@@ -9,7 +9,7 @@ Discover awesome ChatGPT features you can use in Excel
 <!-- DESCRIPTION -->
 ## 1. Description
 
-With the click of a single button you can access ChatGPT's awesome capabilies to generate unique images in Microsoft Word
+With some simple formulas you can make direct calls to ChatGPT for Moderation and Sentiment of text, witth results returned to your worksheet almost instantly.
 <br /><br />
 
 
