@@ -1,0 +1,68 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Natural Language Proccessing Functions using ChatGPT</title>
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+    <!-- For more information on Fluent UI, visit https://developer.microsoft.com/fluentui#/. -->
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"/>
+
+    <!-- Template styles -->
+    <link href="taskpane.css" rel="stylesheet" type="text/css" />
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="ms-font-m ms-welcome ms-Fabric">
+    <header class="ms-welcome__header ms-bgColor-neutralLighter">
+        <img width="150" src="../../assets/logo.svg" alt="Analytics in Motion Logo" title="Analytics in Motion Logo" />
+        <h1 class="ms-font-su">ChatGPT in Excel</h1>
+    </header>
+    <main id="app-body" class="ms-welcome__main">
+        <h2 class="ms-font-xl"> Discover awesome ChatGPT features you can use in Excel! </h2>
+        <ul class="ms-List ms-welcome__features">
+            <li class="ms-ListItem">
+                <i class="ms-Icon ms-Icon--CheckboxComposite ms-font-xl"></i>
+                <span class="ms-font-m">Conduct content moderation checks</span>
+            </li>
+        </ul>
+        <code><b>=CHATGPT.MODERATION(A2)</b></code>
+        <ul class="ms-List ms-welcome__features">
+            <li class="ms-ListItem">
+                <i class="ms-Icon ms-Icon--Emoji2 ms-font-xl"></i>
+                <span class="ms-font-m">Rapidly classify the sentiment of text</span>
+            </li>
+        </ul>
+        <code><b>=CHATGPT.SENTIMENT(A2)</b></code>
+        <br />
+        <p class="ms-font-l">These formulas make direct callouts to ChatGPT an return the results into the worksheet almost instantly!</p>
+        <img width=100% src="../../assets/analytics-in-motion-chatgpt-in-excel-add-in-example.png" alt="Excel ChatGPT NLP Function Example" title="Excel add-in ChatGPT NLP Functions by Analytics in Motion" />
+        
+        <p class="ms-font-l">For any questions about this add-in feel free to email us directly at: <a href="mailto:pi@analyticsinmotion.com?Subject=Excel%20add-in%20Question" target="_self">pi@analyticsinmotion.com</a>
+        </p>
+    </main>
+    <footer>
+        <div class="footer">
+        <div class="row">
+        <a href="https://www.analyticsinmotion.com" rel="noopener noreferrer" target="_blank" aria-label="Analytics in Motion Website Link"><i class="fa fa-globe"></i></a>
+        <a href="https://www.linkedin.com/company/analytics-in-motion" rel="noopener noreferrer" target="_blank" aria-label="Analytics in Motion Linkedin Link"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/analyticsinmotion" rel="noopener noreferrer" target="_blank" aria-label="Analytics in Motion Github Link"><i class="fa fa-github"></i></a>
+        <a href="https://twitter.com/analyticsmotion" rel="noopener noreferrer" target="_blank" aria-label="Analytics in Motion Twitter Link"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.facebook.com/analyticsinmotion/" rel="noopener noreferrer" target="_blank" aria-label="Analytics in Motion Facebook Link"><i class="fa fa-facebook"></i></a>
+        </div>
+        </footer>       
+
+
+</body>
+
+</html>

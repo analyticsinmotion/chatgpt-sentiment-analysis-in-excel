@@ -1,0 +1,34 @@
+{
+    "functions": [
+        {
+            "description": "Content Moderation using ChatGPT",
+            "id": "MODERATION",
+            "name": "MODERATION",
+            "parameters": [
+                {
+                    "description": "The text to be checked",
+                    "name": "text",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Sentiment Analysis using ChatGPT",
+            "id": "SENTIMENT",
+            "name": "SENTIMENT",
+            "parameters": [
+                {
+                    "description": "The text to be analyzed",
+                    "name": "text",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        }
+    ]
+}
