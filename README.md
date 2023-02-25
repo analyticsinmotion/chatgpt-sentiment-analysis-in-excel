@@ -33,9 +33,17 @@ https://user-images.githubusercontent.com/52817125/221358972-505b3d54-1ce6-4cb1-
 - Requires Microsoft Excel (<a href="https://www.microsoft.com/en-us">https://www.microsoft.com/en-us</a>)
 <br />
 
+<!-- OpenAI API Rate Limits -->
+## 5. OpenAI API Rate Limits
 
+A rate limit is a restriction that an API imposes on the number of times a user or client can access the server within a specified period of time. 
+Rate limits are a common practice for APIs, and they're put in place to help protect against abuse or misuse, help  manage the aggregate load on infrastructure, and ensure that everyone has fair access.
 
+To see the latest API rate limits per user tier please read the following: <a href="https://platform.openai.com/docs/guides/rate-limits/overview">https://platform.openai.com/docs/guides/rate-limits/overview</a>
 
+Each cell in Excel where the CHATGPT.SENTIMENT formula is executed should be considered and counted as a single Request. 
+
+<br />
 
 <!-- Best Practices for API Key Safety -->
 ## 6. Best Practices for API Key Safety
