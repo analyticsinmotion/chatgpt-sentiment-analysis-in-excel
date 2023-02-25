@@ -3,7 +3,7 @@ Discover awesome ChatGPT features you can use in Excel
 <br /><br />
 
 <!-- badges: start -->
-
+[![NodeJS with Webpack](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/actions/workflows/webpack.yml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/actions/workflows/webpack.yml)
 <!-- badges: end -->
 
 <!-- DESCRIPTION -->
