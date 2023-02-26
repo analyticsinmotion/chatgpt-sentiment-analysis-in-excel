@@ -13,7 +13,7 @@ Discover awesome ChatGPT features you can use in Excel
 <!-- DESCRIPTION -->
 ## 1. Description
 
-With some simple formulas you can make direct calls to ChatGPT for Moderation and Sentiment of text, with results returned to your worksheet almost instantly.
+With our Excel Custom Function Add-in you can make direct calls to ChatGPT for NLP capabilities such as text Moderation and Sentiment Analysis. Results from ChatGPT will be returned to your worksheet almost instantly.
 <br /><br />
 
 
