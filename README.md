@@ -63,7 +63,51 @@ This repository contains the architecture and source code used by the Yeoman gen
     ├── tsconfig.json
     └── webpack.config.js    
 
+
+<br /><br />
+    
+<!-- INSTRUCTIONS -->
+## 3. Instructions
+This Excel Custom Function provides two formulas that can be applied to text data.<br />
 <br />
+
+
+<strong>MODERATION Check</strong>
+```
+=CHATGPT.MODERATION(A2)
+```
+Valid Moderation Responses include:
+- Passed
+- Failed
+- Blank
+
+<br />
+
+<strong>SENTIMENT Classifier</strong>
+```
+=CHATGPT.SENTIMENT(A2)
+```
+Valid Sentiment Responses include:
+- Positive
+- Negative
+- Neutral
+- Blank
+
+<br />
+
+To apply the Sentiment Classifier only on text that has passed moderation you can apply a formula similar to this:
+```
+=IF(B2="Failed","",CHATGPT.SENTIMENT(A2))
+```
+
+<br /><br />
+
+<!-- Installation -->
+## 4. Installation
+
+
+
+<br /><br />
 
 <!-- OpenAI API Rate Limits -->
 ## 5. OpenAI API Rate Limits
