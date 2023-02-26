@@ -22,8 +22,7 @@ With an Excel Custom Function Add-in you can make direct calls to ChatGPT for NL
 
 
 
-
-https://user-images.githubusercontent.com/52817125/221358972-505b3d54-1ce6-4cb1-9c52-8a08d00e006e.mp4
+https://user-images.githubusercontent.com/52817125/221394461-92dd3f83-5d41-4f32-9f48-3d701f523b2e.mp4
 
 
 
