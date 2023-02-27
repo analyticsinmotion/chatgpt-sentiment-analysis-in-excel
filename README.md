@@ -134,6 +134,15 @@ The taks pane will open in the right-hand side of the workbook with the title **
 
 <!-- Installation -->
 ## 4. Installation
+### 4.1 Node.js
+- Download and install Node.js
+
+### 4.2 Yeoman generator for Office Add-ins - YO OFFICE
+- Install yo generator office at the Command Line. 
+
+Please ensure the command prompt has been opened with administrative priviledges
+
+``` npm install -g yo generator-office```
 
 
 
