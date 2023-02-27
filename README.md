@@ -200,12 +200,14 @@ For further information about installing and configuring dotenv-webpack please r
 
 
 ### 4.8 Validate the manifest.xml file
-- To ensure that your XML file is correct and complete after editing please run the Office Add-in Validator. This will allowyou to identify and fix any potential issues with the manifest.xml file
+- To ensure that your XML file is correct and complete after editing please run the Office Add-in Validator. This will allow you to identify and fix any potential issues with the manifest.xml file
 ```
 npm run validate
 ```
 
-<br /><br />
+<img src=".github/assets/images/aim-custom-function-chatgpt-manifest-validation-check.png" width=100% height=100%> 
+
+<br />
 
 <!-- OpenAI API Rate Limits -->
 ## 5. OpenAI API Rate Limits
