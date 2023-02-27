@@ -175,6 +175,23 @@ cd ChatGPT
 npm start
 ```
 
+### 4.4 Install dotenv-webpack
+Enter the following command to instal dotenv-webpack
+```
+npm install dotenv-webpack --save-dev
+```
+For further information about installing and configuring dotenv-webpack please read the following: <a href="https://github.com/mrsteele/dotenv-webpack/blob/master/README.md">https://github.com/mrsteele/dotenv-webpack/blob/master/README.md</a>
+<br />
+
+
+### 4.5 Add .env file into your project 
+- Copy the .env file from this repository and add it into the project root folder
+- Open the .env file (in VS Code or any text editor) and replace the dummy API Key with your OpenAI API Key.
+
+
+
+
+
 <br /><br />
 
 <!-- OpenAI API Rate Limits -->
