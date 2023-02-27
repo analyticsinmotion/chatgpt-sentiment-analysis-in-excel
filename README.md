@@ -59,7 +59,7 @@ This repository contains the architecture and source code used by the Yeoman gen
     │   │   ├── taskpane.css    
     │   │   └── taskpane.html    
     ├── .env
-    ├── manifst.xml
+    ├── manifest.xml
     ├── tsconfig.json
     └── webpack.config.js    
 
