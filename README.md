@@ -134,17 +134,46 @@ The taks pane will open in the right-hand side of the workbook with the title **
 
 <!-- Installation -->
 ## 4. Installation
-### 4.1 Node.js
+### 4.1 Install Node.js
 - Download and install Node.js
 
-### 4.2 Yeoman generator for Office Add-ins - YO OFFICE
+### 4.2 Install YO OFFICE - Yeoman generator for Office Add-ins 
 - Install yo generator office at the Command Line. 
 
 Please ensure the command prompt has been opened with administrative priviledges
 
 ``` npm install -g yo generator-office```
 
+### 4.3 Run YO OFFICE
+- Change directory to the location where the project will be built
+```
+cd C:\path where project will be built
+```
 
+- Run yo office
+```
+yo office
+```
+<img src=".github/assets/images/aim-custom-function-chatgpt-run-yo-office.png" width=100% height=100%>
+
+- Enter the following settings:
+    - **Choose a project type:** `Excel Custom Functions using a Shared Runtime`
+    - **Choose a script type:** `JavaScript`
+    - **What do you want to name your add-in?** `ChatGPT`
+
+  The Yeoman generator will create the project files and install supporting Node components.
+  
+<img src=".github/assets/images/aim-custom-function-chatgpt-yo-office-add-in-created.png" width=100% height=100%>  
+  
+- Navigate to the root folder of the project (which is the name of your add-in)
+```
+cd ChatGPT
+```
+
+- Build the project
+```
+npm start
+```
 
 <br /><br />
 
