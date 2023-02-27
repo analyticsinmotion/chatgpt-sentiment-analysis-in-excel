@@ -47,7 +47,7 @@ https://user-images.githubusercontent.com/52817125/221394461-92dd3f83-5d41-4f32-
   - Microsoft Edge Tools for VS Code Extension (RECOMMENDED)
 
 ### 2.3 Directory Structure 
-This repository contains the architecture and source code used by the Yeoman generator for Office Add-ins (Yo Office generator). The generator creates the scaffolding of files for a variety of Office Add-in projects. Listed below are the main directories/files that were edited for this project.
+This repository contains the architecture and source code used by the Yeoman generator for Office Add-ins (Yo Office generator). The generator creates the scaffolding of files for a variety of Office Add-in projects. Listed below are the main directories/files that were added or edited for this project.
 
 
     chatgpt-sentiment-analysis-in-excel
