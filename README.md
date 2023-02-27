@@ -75,9 +75,9 @@ To utilize these formulas simply type ```=chatgpt``` in the formula bar and the 
 
 <img src=".github/assets/images/aim-custom-function-chatgpt-excel-formulas.png" width=100% height=100%>
 
-<br />
 
-<strong>MODERATION Check Formula</strong>
+
+### 3.1 MODERATION Check Formula
 
 Valid Moderation Input include:
 
@@ -94,9 +94,9 @@ Valid Moderation Responses include:
 - Failed
 - Blank
 
-<br />
 
-<strong>SENTIMENT Classifier Formula</strong>
+
+### 3.2 SENTIMENT Classifier Formula
 
 Valid Sentiment Input include:
 ```
@@ -117,9 +117,8 @@ To apply the Sentiment Classifier only on text that has passed moderation you ca
 =IF(B2="Failed","",CHATGPT.SENTIMENT(A2))
 ```
 
-<br />
-<strong>Task Pane</strong>
-<br /><br />
+
+### 3.3 Open Task Pane
 
 To open the task pane and read more information about this custom function:
 - Click the ribbon tab **AI Copilot** 
@@ -189,8 +188,22 @@ For further information about installing and configuring dotenv-webpack please r
 - Open the .env file (in VS Code or any text editor) and replace the dummy API Key with your OpenAI API Key.
 
 
+### 4.6 Open the manifest.xml file in your project
+- Copy the ID tag. This is a unique identifier for each manifest file and should not be the same for any project
+```
+<Id>5qr6d5g8-76yt-4b8z-97jh-83577524e6e1</Id>
+```
+- Download the manifest.xml file from this repository. Replace the ID tag in that file with the one copied from your project.
+
+### 4.7 Download the remaining directories/files in this repostory
+- Please Note: This repository contains almost all the files from the Yeoman generator. Many of these files you will not need to edit and can be left alone. The files that willl need to be replaced or edited are specified in the directory structure in Section 2.3 above.
 
 
+### 4.8 Validate the manifest.xml file
+- To ensure that your XML file is correct and complete after editing please run the Office Add-in Validator. This will allowyou to identify and fix any potential issues with the manifest.xml file
+```
+npm run validate
+```
 
 <br /><br />
 
