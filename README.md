@@ -47,7 +47,7 @@ https://user-images.githubusercontent.com/52817125/221394461-92dd3f83-5d41-4f32-
   - Microsoft Edge Tools for VS Code Extension (RECOMMENDED)
 
 ### 2.3 Directory Structure 
-This repository contains the architecture and source code used by the Yeoman generator for Office Add-ins (Yo Office generator). The generator creates the scaffolding of files for a variety of Office Add-in projects. Listed below are the main directories/files for this project.
+This repository contains the architecture and source code used by the Yeoman generator for Office Add-ins (Yo Office generator). The generator creates the scaffolding of files for a variety of Office Add-in projects. Listed below are the main directories/files that were edited for this project.
 
 
     chatgpt-sentiment-analysis-in-excel
@@ -68,11 +68,16 @@ This repository contains the architecture and source code used by the Yeoman gen
     
 <!-- INSTRUCTIONS -->
 ## 3. Instructions
-This Excel Custom Function provides two formulas that can be applied to text data.<br />
+This Excel Custom Function provides two formulas that can be applied to text data - *Moderation* and *Sentiment*.<br />
+<br />
+To utilize these formulas simply type ```=chatgpt``` in the formula bar and the predictive formula dropdown should appear. You can either continue to type the formula or select one of the dropdown options.
 <br />
 
+<img src=".github/assets/images/aim-custom-function-chatgpt-excel-formulas.png" width=100% height=100%>
 
-<strong>MODERATION Check</strong>
+<br />
+
+<strong>MODERATION Check Formula</strong>
 ```
 =CHATGPT.MODERATION(A2)
 ```
@@ -83,7 +88,7 @@ Valid Moderation Responses include:
 
 <br />
 
-<strong>SENTIMENT Classifier</strong>
+<strong>SENTIMENT Classifier Formula</strong>
 ```
 =CHATGPT.SENTIMENT(A2)
 ```
