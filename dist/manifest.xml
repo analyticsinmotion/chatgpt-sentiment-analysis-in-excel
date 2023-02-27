@@ -54,7 +54,6 @@
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
             <!--<OfficeTab id="TabHome">-->
             <CustomTab id="AICopilot.Tab">
-              <Label resid="AICopilot.Tab.Label"/>
               <Group id="AICopilot.Tab.Group1">
                 <Label resid="AICopilot.Tab.Group1.Label"/>
                 <Icon>
@@ -79,6 +78,9 @@
                   </Action>
                 </Control>
               </Group>
+
+              <Label resid="AICopilot.Tab.Label"/>
+
             </CustomTab>
             <!--</OfficeTab>-->
           </ExtensionPoint>
@@ -101,7 +103,6 @@
         <bt:String id="Functions.Namespace" DefaultValue="CHATGPT"/>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
         <bt:String id="AICopilot.Tab.Group1.Label" DefaultValue="ChatGPT"/>
-        <!--<bt:String id="TaskpaneButton.Label" DefaultValue="Show Taskpane"/>-->
         <bt:String id="TaskpaneButton.Label" DefaultValue="NLP Functions"/>
         <bt:String id="AICopilot.Tab.Label" DefaultValue="AI Copilot"/>
       </bt:ShortStrings>
