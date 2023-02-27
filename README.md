@@ -100,6 +100,19 @@ To apply the Sentiment Classifier only on text that has passed moderation you ca
 =IF(B2="Failed","",CHATGPT.SENTIMENT(A2))
 ```
 
+<br />
+<strong>Task Pane</strong>
+<br /><br />
+
+To open the task pane and read more information about this custom function:
+- Click the ribbon tab **AI Copilot** 
+- Select **NLP Functions**
+
+The taks pane will open in the right-hand side of the workbook with the title **NLP Functions with ChatGPT**
+<br /><br />
+<img src=".github/assets/images/aim-custom-function-chatgpt-excel-opening-the task-pane.png" width=100% height=100%>
+
+
 <br /><br />
 
 <!-- Installation -->
