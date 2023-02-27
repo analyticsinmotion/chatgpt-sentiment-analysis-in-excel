@@ -64,7 +64,7 @@ This repository contains the architecture and source code used by the Yeoman gen
     └── webpack.config.js    
 
 
-<br /><br />
+<br />
     
 <!-- INSTRUCTIONS -->
 ## 3. Instructions
@@ -78,8 +78,16 @@ To utilize these formulas simply type ```=chatgpt``` in the formula bar and the 
 <br />
 
 <strong>MODERATION Check Formula</strong>
+
+Valid Moderation Input include:
+
+Direct Cell References
 ```
 =CHATGPT.MODERATION(A2)
+```
+Entering text directly. Please ensure any text is enclosed in double quotation marks.
+```
+=CHATGPT.MODERATION("Any text you want to be checked")
 ```
 Valid Moderation Responses include:
 - Passed
@@ -89,8 +97,12 @@ Valid Moderation Responses include:
 <br />
 
 <strong>SENTIMENT Classifier Formula</strong>
+
+Valid Sentiment Input include:
 ```
 =CHATGPT.SENTIMENT(A2)
+
+=CHATGPT.SENTIMENT("Any text you want to find the sentiment for")
 ```
 Valid Sentiment Responses include:
 - Positive
@@ -118,7 +130,7 @@ The taks pane will open in the right-hand side of the workbook with the title **
 <img src=".github/assets/images/aim-custom-function-chatgpt-excel-opening-the task-pane.png" width=100% height=100%>
 
 
-<br /><br />
+<br />
 
 <!-- Installation -->
 ## 4. Installation
