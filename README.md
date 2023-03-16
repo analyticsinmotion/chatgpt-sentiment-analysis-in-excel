@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/52817125/221394461-92dd3f83-5d41-4f32-
 - Requires dotenv-webpack (<a href="https://www.npmjs.com/package/dotenv-webpack">https://www.npmjs.com/package/dotenv-webpack</a>)
 - Requires Yo Office generator (<a href="https://github.com/OfficeDev/generator-office">https://github.com/OfficeDev/generator-office</a>)
 
-
+Please be aware of the [costs](https://openai.com/pricing) associated with using the OpenAI API when utilizing this project.
 
 ### 2.2 Editing, Debugging and Testing
 - Visual Studio Code (<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>)
