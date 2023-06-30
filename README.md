@@ -11,7 +11,6 @@ Discover awesome ChatGPT features you can use in Excel
 ![Lifecycle:Stable](https://img.shields.io/badge/Lifecycle-Stable-97ca00)&nbsp;&nbsp;
 [![NodeJS with Webpack](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/actions/workflows/webpack.yml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/actions/workflows/webpack.yml)&nbsp;&nbsp;
 [![CodeQL](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/actions/workflows/codeql.yml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/actions/workflows/codeql.yml)&nbsp;&nbsp;
-![Known Vulnerabilities](https://snyk.io/test/github/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/badge.svg)&nbsp;&nbsp;
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?logo=microsoft-excel&logoColor=white)&nbsp;&nbsp;
 <!-- badges: end -->
 
