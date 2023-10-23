@@ -7,11 +7,13 @@ Discover awesome ChatGPT features you can use in Excel
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)](https://nodejs.org/en/)&nbsp;&nbsp;
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?logo=npm&logoColor=white)&nbsp;&nbsp;
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?logo=webpack&logoColor=black)&nbsp;&nbsp;
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?logo=microsoft-excel&logoColor=white)&nbsp;&nbsp;
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=badge&logo=openai&logoColor=white)](https://chat.openai.com)&nbsp;&nbsp;
 [![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/blob/main/LICENSE.md)&nbsp;&nbsp;
 ![Lifecycle:Stable](https://img.shields.io/badge/Lifecycle-Stable-97ca00)&nbsp;&nbsp;
 [![NodeJS with Webpack](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/actions/workflows/webpack.yml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/actions/workflows/webpack.yml)&nbsp;&nbsp;
 [![CodeQL](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/actions/workflows/codeql.yml/badge.svg)](https://github.com/analyticsinmotion/chatgpt-sentiment-analysis-in-excel/actions/workflows/codeql.yml)&nbsp;&nbsp;
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?logo=microsoft-excel&logoColor=white)&nbsp;&nbsp;
+[![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=badge&logo=openai&logoColor=white)](https://openai.com)&nbsp;&nbsp;
 [![Analytics in Motion](https://raw.githubusercontent.com/analyticsinmotion/.github/main/assets/images/analytics-in-motion-github-badge-rounded.svg)](https://www.analyticsinmotion.com)&nbsp;&nbsp;
 <!-- badges: end -->
 
